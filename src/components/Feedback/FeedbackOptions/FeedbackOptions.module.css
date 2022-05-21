@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.button {
+    padding: 10px;
+    width: 100px;
+
+    cursor: pointer;
+    font-size: 20px;
+}
