@@ -13,15 +13,15 @@ function App() {
     switch (event.target.name) {
       case 'good':
         setGood(prevState => prevState + 1);
-        return;
+        break;
       case 'neutral':
         setNeutral(prevState => prevState + 1);
-        return;
+        break;
       case 'bad':
         setBad(prevState => prevState + 1);
-        return;
+        break;
       default:
-        return;
+        console.log('wrong');
     }
   };
 
